@@ -10,6 +10,11 @@ TESTS  = unit_tests_in_c
 
 
 
+SOURCES  = unit_tests.c       \
+           unit_tests_in_c.c
+
+
+
 .PHONY: all
 all: clean  $(TESTS)
 
@@ -27,7 +32,7 @@ clean:
 
 .PHONY: $(TESTS)
 $(TESTS):
-	$(GCC)  $@.c -o $@  $(CFLAGS)
+	$(GCC)  $(SOURCES) -o $@  $(CFLAGS)
 	@echo "  ---- Compiled $@ ----"
 	@echo ""
 
