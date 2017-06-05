@@ -35,7 +35,6 @@ Variations unit tests in C (for GCC).
 
 
 ***
-<br/>
 ##### Вариант 2 (ld script) [2_ld_script](./2_ld_script/)
 
 **Достоинства:**
@@ -47,7 +46,6 @@ Variations unit tests in C (for GCC).
 
 1. Работа с ld скриптами (фу фу фу).
 2. Нет Вы не поняли. ЭТО РАБОТА с ld скриптами. (сложность при кросс-компиляции).
-3. Сложновато как-то.
 
 
 Для получения ld скрипта можно выполнить следующую команду:
@@ -65,7 +63,6 @@ gcc -m32 -Xlinker -verbose
 
 
 ***
-<br/>
 ##### Вариант 3 (использование \_\_attribute\_\_((section ("unit_test"))))  [3_section](./3_section/)
 
 **Достоинства:**
@@ -81,7 +78,6 @@ gcc -m32 -Xlinker -verbose
 
 
 ***
-<br/>
 ##### Вариант 4 (использование \_\_attribute\_\_((constructor)  [4_constructor](./4_constructor/)
 
 **Достоинства:**
@@ -98,9 +94,6 @@ gcc -m32 -Xlinker -verbose
 
 
 
-<br/>
-***
-<br/>
 ## License
 
-[BSD](./LICENSE).
+[BSD-3-Clause](./LICENSE).
