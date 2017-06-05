@@ -10,8 +10,7 @@ TESTS  = unit_tests_in_c
 
 
 
-SOURCES  = unit_tests.c       \
-           unit_tests_in_c.c
+SOURCES  = unit_tests_in_c.c
 
 
 
